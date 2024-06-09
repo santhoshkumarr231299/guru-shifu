@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class RectangleTest {
 
     @Test
-    public void testGetArea() {
+    public void shouldIncreaseAreaWhenLengthAndBreadthIsGiven() {
         assertEquals(15, new Rectangle(5, 3).getArea());
     }
 }
